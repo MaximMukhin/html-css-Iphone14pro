@@ -29,12 +29,13 @@ body {
 
 .header {
   background-color: #0A0A0A;
+  height: 113px;
 }
 
 .header__inner {
   display: flex;
   justify-content: space-between;
-align-items: center;
+  align-items: center;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -42,5 +43,55 @@ align-items: center;
   line-height: 29px;
   color: #717171;
   height: 113px;
+}
 
+.header__links-item+.header__links-item {
+  margin-left: 30px;
+}
+
+.logo {
+  margin-right: 140px;
+}
+
+.image {
+  background: #F5F5F7;
+}
+
+.image__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.image__title {
+  text-align: center;
+  margin-top: 71px;
+  margin-bottom: 40px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  color: #490E84;
+}
+
+.image__phone {
+  max-width: 937px;
+}
+
+.btn-set {
+  margin-top: 25px;
+  margin-bottom: 40px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  width: 350px;
+  height: 70px;
+  background: #490E84;
+  border-radius: 30px;
 }
