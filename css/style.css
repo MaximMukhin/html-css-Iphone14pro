@@ -95,3 +95,45 @@ body {
   background: #490E84;
   border-radius: 30px;
 }
+
+.what-new__title {
+  margin-top: 87px;
+  margin-bottom: 50px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #717171;
+  text-align: center;
+}
+
+.what-new__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.what-new__text {
+  max-width: 560px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #0A0A0A;
+}
+
+.what-new__text + .what-new__text{
+  margin-top: 30px;
+}
+
+.what-new__text-bolt {
+  margin-top: 30px;
+  max-width: 560px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  color: #0A0A0A;
+}
+
+.what-new__img {
+  width: 370px;
+}
