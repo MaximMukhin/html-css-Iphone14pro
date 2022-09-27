@@ -121,7 +121,7 @@ body {
   color: #0A0A0A;
 }
 
-.what-new__text + .what-new__text{
+.what-new__text+.what-new__text {
   margin-top: 30px;
 }
 
@@ -140,17 +140,17 @@ body {
   width: 370px;
 }
 
-.get-color{
-margin-top: 140px;
+.get-color {
+  margin-top: 140px;
 }
 
-.get-color__title{
+.get-color__title {
   text-align: center;
   font-weight: 700;
-font-size: 32px;
-line-height: 39px;
-color: #717171;
-margin-bottom: 50px;
+  font-size: 32px;
+  line-height: 39px;
+  color: #717171;
+  margin-bottom: 50px;
 }
 
 .get-color__cards-wrapper {
@@ -158,20 +158,21 @@ margin-bottom: 50px;
   justify-content: space-between;
   flex-basis: 25%;
 }
-.get-color__card-item {
-}
+
+.get-color__card-item {}
+
 .get-color__img {
   width: 240px;
-  
+
 }
 
 .get-color__color-text-bolt {
   margin-bottom: 10px;
   text-align: center;
   font-weight: 700;
-font-size: 20px;
-line-height: 130%;
-color: #0A0A0A;
+  font-size: 20px;
+  line-height: 130%;
+  color: #0A0A0A;
 }
 
 .get-color__color-text {
@@ -179,11 +180,107 @@ color: #0A0A0A;
   margin-bottom: 0;
   text-align: center;
   font-weight: 400;
-font-size: 14px;
-line-height: 130%;
-color: #0A0A0A;
+  font-size: 14px;
+  line-height: 130%;
+  color: #0A0A0A;
 }
+
+
 
 .form {
   margin-top: 150px;
+}
+
+.form__inner {
+  display: flex;
+}
+
+.form__wrapper {
+  min-width: 600px;
+  background: #574B63;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__title {
+  width: 100%;
+  margin-top: 137px;
+  margin-bottom: 70px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+
+.form__input-phone,
+.form__input-name {
+  background: #574B63;
+  border: none;
+  border-bottom: 1px solid #F5F5F5;
+  padding-bottom: 10px;
+  outline: none;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  width: 400px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.form__input-phone::placeholder,
+.form__input-name::placeholder {
+  opacity: 1;
+  color: #FFFFFF;
+}
+
+.form__callback {
+  text-align: center;
+  font-size: 14px;
+  line-height: 130%;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.form__button {
+  border: none;
+  margin-top: 16px;
+  border-radius: 30px;
+  min-width: 240px;
+  height: 50px;
+}
+
+.footer {
+  background: #0A0A0A;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+}
+
+.footer__politics {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #717171;
+}
+
+.footer__phone {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #717171;
 }

@@ -19,9 +19,9 @@
       <div class="container">
         <div class="header__inner">
           <div class="header__links">
-            <a class="header__links-item" href="#">Что нового</a>
-            <a class="header__links-item" href="#">Цвет</a>
-            <a class="header__links-item" ref="#">Заказать</a>
+            <a class="header__links-item" href="#what-new">Что нового</a>
+            <a class="header__links-item" href="#get-color">Цвет</a>
+            <a class="header__links-item" href="#form">Заказать</a>
           </div>
           <img class="logo" src="images/appel.svg" alt="" />
           <a class="header__phone" href="tel:+380504565656"
@@ -45,7 +45,7 @@
       </div>
     </section>
 
-    <section class="what-new">
+    <section class="what-new" id="what-new">
       <div class="container">
         <div class="what-new__inner">
           <h2 class="what-new__title">ЧТО НОВОГО</h2>
@@ -81,7 +81,7 @@
       </div>
     </section>
 
-    <section class="get-color">
+    <section class="get-color" id="get-color">
       <div class="container">
         <div class="get-color__inner">
           <h2 class="get-color__title">ВЫБЕРИ СВОЙ ЦВЕТ</h2>
@@ -111,21 +111,39 @@
       </div>
     </section>
 
-    <section class="form">
-      <div class="conteiner">
+    <section class="form" id="form">
+      <div class="container">
         <div class="form__inner">
+          <div class="form__wrapper">
+            <h2 class="form__title">ХОЧЕШЬ IPHONE 14 PRO?</h2>
 
+            <div class="form__site">
+
+              <label for="form__input-name">
+                <input class="form__input-name" id="form__input-name" placeholder="Ваше имя" type="text">
+              </label>
+
+              <label for="form__input-phone">
+                <input class="form__input-phone" id="form__input-phone" placeholder="Номер телефона" type="text">
+              </label>
+            </div>
+
+            <p class="form__callback">В ближайшее время наш менеджер свяжется с Вами</p>
+            <button class="form__button">ЗАКАЗАТЬ</button>
+
+          </div>
+
+          <img class="form__img" src="images/hero_endframe.png" alt="img">
         </div>
       </div>
     </section>
 
     <footer class="footer">
       <div class="container">
-        <div class="fotter__inner">
-          <div class="form__wrapper">
-            <h2 class="form__title">ХОЧЕШЬ IPHONE 14 PRO?</h2>
-          </div>
-          <img class="form__img" src="images/hero_endframe.png" alt="img">
+        <div class="footer__inner">
+          <a class="footer__politics" href="#">Политика конфиденциальности</a>
+<img class="footer__img" src="images/appel.svg" alt="img">
+<a class="footer__phone" href="tel:+380504565656"><span>+38 050-456-56-56</span></a>
         </div>
       </div>
     </footer>
