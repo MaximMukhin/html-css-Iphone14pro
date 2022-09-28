@@ -216,6 +216,11 @@ body {
   color: #FFFFFF;
 }
 
+.form__site {
+  display: flex;
+  flex-direction: column;
+}
+
 .form__input-phone,
 .form__input-name {
   background: #574B63;
@@ -224,8 +229,7 @@ body {
   padding-bottom: 10px;
   outline: none;
   margin-bottom: 30px;
-  margin-left: 100px;
-  width: 400px;
+  min-width: 400px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -315,15 +319,6 @@ body {
   .get-color__img{
     margin-top: 12px;
   }
-  .form__input-phone, .form__input-name{
-    max-width: 300px;
-  }
-}
-
-@media (max-width: 850px) {
-  .form__input-phone, .form__input-name{
-    margin-left: 0;
-  }
 }
 
 @media (max-width: 800px) {
@@ -350,13 +345,6 @@ body {
 .form__wrapper {
     min-width: 260px;
   }
-
-  .form__input-phone, .form__input-name{
-    margin-left: 32px;
-  }
-
-
-
 }
 
 @media (max-width: 600px) {
@@ -384,6 +372,12 @@ body {
     font-size: 12px;
   }
 
+  .form__input-phone, 
+.form__input-name {
+  min-width: 240px;
+
+}
+
 }
 
 @media (max-width: 400px) {
@@ -395,8 +389,8 @@ body {
 
 .form__input-phone, 
 .form__input-name {
-  width: 260px;
-  margin-left: 10px;
+  min-width: 240px;
+
 }
 
 }
